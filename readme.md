@@ -26,7 +26,7 @@
 <br>
 <p>圖二，自行產生之資料集</p>
 
-## PipeLine
+## Pipeline
 
 我們系統的pipeline如圖所示，分為Detection Module、Cleaner Module、Recognition Module；首先我們會將圖片中的文字區塊會先利用Four-Points-Transform來轉換成正面文字圖片並利用YOLOv4來偵測出圖片中含有幾個字元；接著送至Cleaner Module來去除掉圖片中的雜訊，最後利用Recognition Network辨識出文字內容
 
